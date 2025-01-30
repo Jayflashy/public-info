@@ -10,9 +10,9 @@ app.use(cors());
 app.get("/", (req, res) => {
   const currentDatetime = new Date().toISOString();
   const response = {
-    email: "your-email@example.com", 
+    email: "joshuaadedolapo@gmail.com", 
     current_datetime: currentDatetime,
-    github_url: "https://github.com/yourusername/your-repo",
+    github_url: "https://github.com/jayflashy/public-info",
   };
   res.status(200).json(response);
 });
